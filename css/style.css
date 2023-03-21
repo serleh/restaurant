@@ -1,0 +1,90 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+ /* HERO CONTAINER BACKGROUND IMAGE */
+
+ .hero-container{
+     background-image: url('../images/bg-1.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 90vh;
+ }
+
+                      /* HEADER STYLE */
+header {
+    
+     border: 2px solid red;
+}
+
+header ul{
+     display: flex;
+     border: 2px solid blue;
+     gap: 10px;
+     align-items: center;
+     justify-content: flex-end;
+     margin: 20px;
+}
+
+header a {
+     text-decoration: none;
+}
+
+header li{
+     list-style-type: none;
+}
+
+.shift-right{
+     margin-right: 60%;
+}
+
+       /* MAIN CONTENT */
+
+.main-content{
+     border: 2px solid red;
+     width: 50%;
+     height: 300px;
+     margin-top: 50px;
+     padding: 20px;
+}
+
+.main-content h1{
+     font-size: 4rem;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
